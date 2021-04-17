@@ -1,0 +1,8 @@
+https://cloud.elastic.co/deployments/b6146cf45de2493395c1ecf5bbdc5e55
+
+Kibana
+https://cloud.elastic.co/sso/v1/go/ec:3976675633:kibana-enterprise-search-deployment-b6146c?acs=https://enterprise-search-deployment-b6146c.kb.us-west1.gcp.cloud.es.io:9243/api/security/saml/callback&sp_login_url=https://enterprise-search-deployment-b6146c.kb.us-west1.gcp.cloud.es.io:9243
+
+ES:
+https://enterprise-search-deployment-b6146c.es.us-west1.gcp.cloud.es.io:9243
+

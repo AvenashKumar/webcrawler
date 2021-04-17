@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Main-Class: webcrawler.parser.Parser2
+Class-Path: elasticsearch-ssl-config-7.11.2.jar lucene-analyzers-common-
+ 8.7.0.jar elasticsearch-7.11.2.jar slf4j-api-1.7.21.jar lucene-spatial-
+ extras-8.7.0.jar hppc-0.8.1.jar elasticsearch-geo-7.11.2.jar jsoup-1.13
+ .1.jar lucene-queries-8.7.0.jar netty-buffer-4.1.49.Final.jar commons-l
+ ang3-3.12.0.jar httpasyncclient-4.1.4.jar lucene-join-8.7.0.jar urlcano
+ n-0.3.0.jar rank-eval-client-7.11.2.jar elasticsearch-plugin-classloade
+ r-7.11.2.jar jopt-simple-5.0.2.jar netty-codec-4.1.49.Final.jar jackson
+ -dataformat-cbor-2.10.4.jar lucene-grouping-8.7.0.jar lucene-misc-8.7.0
+ .jar jackson-core-2.10.4.jar snakeyaml-1.26.jar compiler-0.9.6.jar comm
+ ons-logging-1.1.3.jar transport-7.11.2.jar lucene-sandbox-8.7.0.jar tik
+ a-core-1.25.jar jackson-dataformat-smile-2.10.4.jar jackson-dataformat-
+ yaml-2.10.4.jar elasticsearch-x-content-7.11.2.jar elasticsearch-rest-c
+ lient-7.11.2.jar lucene-queryparser-8.7.0.jar lucene-backward-codecs-8.
+ 7.0.jar netty-resolver-4.1.49.Final.jar netty-transport-4.1.49.Final.ja
+ r slf4j-simple-1.7.21.jar parent-join-client-7.11.2.jar joda-time-2.10.
+ 4.jar lucene-core-8.7.0.jar transport-netty4-client-7.11.2.jar httpcore
+ -nio-4.4.12.jar commons-codec-1.11.jar percolator-client-7.11.2.jar jna
+ -5.5.0.jar netty-handler-4.1.49.Final.jar elasticsearch-core-7.11.2.jar
+  lucene-highlighter-8.7.0.jar lucene-suggest-8.7.0.jar HdrHistogram-2.1
+ .9.jar commons-io-2.8.0.jar gson-2.8.6.jar httpcore-4.4.12.jar netty-co
+ dec-http-4.1.49.Final.jar lang-mustache-client-7.11.2.jar crawler-commo
+ ns-1.1.jar lucene-spatial3d-8.7.0.jar netty-common-4.1.49.Final.jar htt
+ pclient-4.5.10.jar elasticsearch-secure-sm-7.11.2.jar lucene-memory-8.7
+ .0.jar log4j-api-2.11.1.jar reindex-client-7.11.2.jar elasticsearch-cli
+ -7.11.2.jar t-digest-3.2.jar
+

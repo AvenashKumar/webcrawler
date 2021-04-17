@@ -1,0 +1,10 @@
+package webcrawler.rule;
+
+public enum ECrawlRule {
+    CONTENT_TYPE_TEXT_HTML,
+    ENGLISH_LANG,
+    AVOID_REDIRECT_URL,
+    AVOID_LONG_CRAWL_DELAY,
+    AVOID_NULL_EMPTY_BODY_CONTENT,
+    AVOID_ALREADY_VISITED_URL;
+}

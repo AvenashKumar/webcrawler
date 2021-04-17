@@ -1,0 +1,14 @@
+1) Add more keywords in relevancy-keywords.txt file.
+2) Skip URL
+3) Robotsafe or is safe to crawl
+4) Remove concurrent containers
+5) Domain manager map should store key as domain main without protocol
+6) Find weight
+    - Is seed URL
+    - Scheme/Protocol (http/https)
+    - Top level domain (.com/.edu)
+    - Relevancy Keywords
+    - Number of InLinks
+    - Depth
+7) Urls normalize when writing on file.
+8) Remove aneeta
