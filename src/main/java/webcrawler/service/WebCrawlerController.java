@@ -41,7 +41,7 @@ public class WebCrawlerController {
     public WebCrawlerController(final String resourceDir, final String seedUrlsFileName) throws IOException {
         this.resourceDir = resourceDir;
         this.failedUrlDir = this.resourceDir + File.separator + "failed-urls";
-        this.docDataDir = this.resourceDir + File.separator + "aneeta-doc-collection";
+        this.docDataDir = this.resourceDir + File.separator + "doc-collection";
         this.seedUrlsFilePath = this.resourceDir + File.separator + seedUrlsFileName;
         this.relevantKeywordsFilePath = this.resourceDir + File.separator + "relevancy-keywords.txt";
         this.failedUrlsManager = new FailedUrlsManager(this.failedUrlDir);

@@ -11,4 +11,3 @@
     - Number of InLinks
     - Depth
 7) Urls normalize when writing on file.
-8) Remove aneeta

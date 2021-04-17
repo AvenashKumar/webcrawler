@@ -11,7 +11,7 @@ public class CanonicalizationTest {
     @Test
     public void test1(){
         final String inputUrl = "HTTP://www.Example.com/SomeFile.html";
-        final ParsedUrlEx parsedUrl = canonicalization.canonicalize(inputUrl, null);
+        final ParsedUrlEx parsedUrl = canonicalization.canonicalize(null, inputUrl);
         final String expected = "http://www.example.com/SomeFile.html";
         final String actual = parsedUrl.toString();
         assertEquals(expected, actual);
@@ -20,7 +20,7 @@ public class CanonicalizationTest {
     @Test
     public void test2(){
         final String inputUrl = "http://www.example.com:80";
-        final ParsedUrlEx parsedUrl = canonicalization.canonicalize(inputUrl, null);
+        final ParsedUrlEx parsedUrl = canonicalization.canonicalize(null, inputUrl);
         final String expected = "http://www.example.com/";
         final String actual = parsedUrl.toString();
         assertEquals(expected, actual);
@@ -29,7 +29,7 @@ public class CanonicalizationTest {
     @Test
     public void test3(){
         final String inputUrl = "http://www.example.com/a.html#anything";
-        final ParsedUrlEx parsedUrl = canonicalization.canonicalize(inputUrl, null);
+        final ParsedUrlEx parsedUrl = canonicalization.canonicalize(null, inputUrl);
         final String expected = "http://www.example.com/a.html";
         final String actual = parsedUrl.toString();
         assertEquals(expected, actual);
@@ -38,7 +38,7 @@ public class CanonicalizationTest {
     @Test
     public void test4(){
         final String inputUrl = "  http://www.example.com//a.html  ";
-        final ParsedUrlEx parsedUrl = canonicalization.canonicalize(inputUrl, null);
+        final ParsedUrlEx parsedUrl = canonicalization.canonicalize(null, inputUrl);
         final String expected = "http://www.example.com/a.html";
         final String actual = parsedUrl.toString();
         assertEquals(expected, actual);
@@ -47,7 +47,7 @@ public class CanonicalizationTest {
     @Test
     public void test5(){
         final String inputUrl = "http://www.example.com/a/../c.html";
-        final ParsedUrlEx parsedUrl = canonicalization.canonicalize(inputUrl, null);
+        final ParsedUrlEx parsedUrl = canonicalization.canonicalize(null, inputUrl);
         final String expected = "http://www.example.com/c.html";
         final String actual = parsedUrl.toString();
         assertEquals(expected, actual);
@@ -56,14 +56,14 @@ public class CanonicalizationTest {
     @Test
     public void test6(){
         final String inputUrl = "../c.html";
-        final ParsedUrlEx parsedUrl = canonicalization.canonicalize(inputUrl, null);
+        final ParsedUrlEx parsedUrl = canonicalization.canonicalize(null, inputUrl);
         assertEquals("0.0.0.0", parsedUrl.getHost());
     }
 
     @Test
     public void test7(){
         final String inputUrl = "http://www.example.com/a/b.html";
-        final ParsedUrlEx parsedUrl = canonicalization.canonicalize(inputUrl, null);
+        final ParsedUrlEx parsedUrl = canonicalization.canonicalize(null, inputUrl);
         assertEquals(inputUrl, parsedUrl.toString());
     }
 

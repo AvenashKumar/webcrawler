@@ -131,7 +131,7 @@ public class DocumentsManager {
     }
 
     private void flush(final String allDocumentsText) throws IOException {
-        final String fileName = String.format("ANEETA_%04d.txt", fileCount++);
+        final String fileName = String.format("DOC_%04d.txt", fileCount++);
         final String filePath = this.docDirPath + File.separator + fileName;
         FileUtilsEx.writeFile(filePath, allDocumentsText, StandardOpenOption.CREATE, StandardOpenOption.APPEND);
     }
